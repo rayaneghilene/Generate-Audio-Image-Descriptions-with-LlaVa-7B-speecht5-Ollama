@@ -3,7 +3,7 @@
 This repository contains the code for the extraction of image descriptions using LLava:7B with Ollama (4-bit-Quantized Version)
 The generated description is then transformed into audio using the Microsoft speecht5_tts model
 
-We use the ````Matthijs/cmu-arctic-xvectors ``` embeddings dataset.
+We use the ```Matthijs/cmu-arctic-xvectors```  embeddings dataset.
 
 ## Usage
 
