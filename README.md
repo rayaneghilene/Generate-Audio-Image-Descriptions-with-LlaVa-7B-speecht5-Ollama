@@ -1,26 +1,35 @@
-# text-to-audio
-This repository contains a text-to-audio pipeline.
+# Generate Audio Image Descriptions with LlaVa 7B and speecht5_tts (using Ollama)
+
+This repository contains the code for the extraction of image descriptions using LLava:7B with Ollama (4-bit-Quantized Version)
+The generated description is then transformed into audio using the Microsoft speecht5_tts model
+
+We use the ````Matthijs/cmu-arctic-xvectors ``` embeddings dataset.
 
 ## Usage
 
-The code provided in this repo is straightforward, just clone the repo using the following:
+The code provided in this repo is straightforward, clone the repo using the following:
 ```
 git clone https://github.com/rayaneghilene/text-to-audio.git
 ```
 
+Use the following command to run the code:
+
+```
+python main.py
+```
+
 ## Requirements 
 
-**You can install these dependencies via:**
+**You can install these requirements for this project via:**
+
 ```
 !pip install -r requirements.txt
 ```
-To generate Ausio from the text use the following command
 
-```
-python text-to-audio.py <PATH_TO_YOUR_TXT_FILE>
-```
 
-## Citation
+## References
+
+**Speecht5_tts model:**
 
 ```
   @inproceedings{ao-etal-2022-speecht5,
@@ -34,5 +43,28 @@ python text-to-audio.py <PATH_TO_YOUR_TXT_FILE>
 
 ```
 
+**Llava model:**
+```
+@misc{liu2023visual,
+      title={Visual Instruction Tuning}, 
+      author={Haotian Liu and Chunyuan Li and Qingyang Wu and Yong Jae Lee},
+      year={2023},
+      eprint={2304.08485},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+**Dataset:**
+```
+@article{article,
+author = {Kominek, John and Black, Alan},
+year = {2004},
+month = {01},
+pages = {},
+title = {The CMU Arctic speech databases},
+journal = {SSW5-2004}
+}
+```
 ## Contact
 Contact me if you have any questions at rayane.ghilene@ensea.fr
