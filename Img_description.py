@@ -10,7 +10,7 @@ from io import BytesIO
 def get_img_files(folder_path):
     return glob.glob(f"{folder_path}/*.jpg")
 
-image_files = get_img_files("/Users/rayaneghilene/Documents/Ollama/Text-to-audio/test-images")
+image_files = get_img_files("/Text-to-audio/test-images")
 
 def process_image(image_file):
     with Image.open(image_file) as img:
