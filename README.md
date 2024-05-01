@@ -14,7 +14,11 @@ git clone https://github.com/rayaneghilene/text-to-audio.git
 ```
 !pip install -r requirements.txt
 ```
+To generate Ausio from the text use the following command
 
+```
+python text-to-audio.py <PATH_TO_YOUR_TXT_FILE>
+```
 
 ## Citation
 
