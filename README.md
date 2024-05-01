@@ -5,6 +5,24 @@ The generated description is then transformed into audio using the Microsoft spe
 
 We use the ```Matthijs/cmu-arctic-xvectors```  embeddings dataset.
 
+
+
+## Requirements 
+
+You need to install **Ollama** locally on your machine to run this code. [Link to install ollama](https://ollama.com/)
+
+
+Once installed you need to import the Llava:7b model. You can do so using the following command:
+```
+olama pull llava:7b
+```
+
+**You can install these requirements for this project via:**
+```
+!pip install -r requirements.txt
+```
+
+
 ## Usage
 
 The code provided in this repo is straightforward, clone the repo using the following:
@@ -18,13 +36,6 @@ Use the following command to run the code:
 python main.py
 ```
 
-## Requirements 
-
-**You can install these requirements for this project via:**
-
-```
-!pip install -r requirements.txt
-```
 
 
 ## References
