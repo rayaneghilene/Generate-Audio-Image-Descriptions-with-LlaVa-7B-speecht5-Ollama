@@ -4,4 +4,6 @@ soundfile
 torch
 torchvision
 torchaudio
+ollamalib
+Pillow
 sentencepiece
