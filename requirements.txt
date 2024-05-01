@@ -4,4 +4,3 @@ soundfile
 torch
 torchvision
 torchaudio
-sentencepiece
