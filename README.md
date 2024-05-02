@@ -14,7 +14,7 @@ You need to install **Ollama** locally on your machine to run this code. [Link t
 
 Once installed you need to import the Llava:7b model. You can do so using the following command:
 ```
-olama pull llava:7b
+ollama pull llava:7b
 ```
 
 **You can install these requirements for this project via:**
